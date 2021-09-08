@@ -104,7 +104,7 @@ public class Transaction {
 
 	@Override
 	public String toString() {
-		return "Transaction [DUEDATE=" + DUEDATE + ", transactionType=" + transactionType + ", dueDate=" + dueDate
+		return "Transaction [DUEDATE=" + DUE_DATE + ", transactionType=" + transactionType + ", dueDate=" + dueDate
 				+ ", transactionDate=" + transactionDate + ", amount=" + amount + ", transactionComplete="
 				+ transactionComplete + "]";
 	}
