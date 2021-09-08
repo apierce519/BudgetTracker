@@ -13,7 +13,7 @@ import java.time.LocalDate;
  */
 public class Transaction {
 
-	private final int DUEDATE = 15;
+	private final int DUE_DATE = 15;
 	private String transactionType;
 	private LocalDate dueDate = LocalDate.of(LocalDate.now().getYear(), LocalDate.now().getMonth(), DUEDATE);
 	private LocalDate transactionDate;
