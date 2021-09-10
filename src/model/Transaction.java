@@ -15,7 +15,7 @@ public class Transaction {
 
 	private final int DUE_DATE = 15;
 	private String transactionType;
-	private LocalDate dueDate = LocalDate.of(LocalDate.now().getYear(), LocalDate.now().getMonth(), DUEDATE);
+	private LocalDate dueDate = LocalDate.of(LocalDate.now().getYear(), LocalDate.now().getMonth(), DUE_DATE);
 	private LocalDate transactionDate;
 	private double amount;
 	private boolean transactionComplete;
